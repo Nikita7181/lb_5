@@ -26,20 +26,24 @@ bool foo1(const std::pair<int, string> n)
 {
     return ((n.first >=-1) && (n.first<=3));
 }
+
 int foo2(const std::pair<int, string> n)
 {
     return n.first;
 }
+
 bool foo3(const int& value)
 {
     return value == 0 ;
 }
+
 bool foo4(int a, int b)
 {
     return a>b;
 }
 
-int main() {
+int main()
+{
     int r=0;
     cout << "Task1" << endl;
     cout << "#1" << endl;
